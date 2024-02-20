@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import './reset';
+@import './container';
+@import './header';
+@import './body';
+@import './footer';
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'slnt' 0;
+  color: #131314;
+  line-height: 1.5;
+  height: 100%;
+  min-width: 320px;
+}
+
+[class*='__container'] {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+a {
+  &:hover,
+  :focus {
+    text-decoration: underline;
+  }
+}
+
+.title {
+  font-family: 'Roboto';
+}

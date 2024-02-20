@@ -1,0 +1,50 @@
+.page__header {
+  border-bottom: 1px solid rgba(223, 223, 223, 0.6);
+  margin-bottom: 60px;
+}
+
+.header__container {
+  display: flex;
+  padding: 20px 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__items {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__links {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-header__join {
+  color: white;
+  background-color: black;
+  width: 112px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding-top: 6px;
+  text-align: center;
+  transition: all 1s ease-out;
+  &:hover,
+  :focus {
+    box-shadow: 0px 12px 11px -3px rgba(0, 0, 0, 0.75);
+  }
+}
+
+.link-header__sign {
+  transition: all 1s ease-out;
+  &:hover,
+  :focus {
+    text-decoration: underline;
+  }
+}
+

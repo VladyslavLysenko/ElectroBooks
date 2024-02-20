@@ -3,38 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Electric_Books</title>
   </head>
   <body>
     <div class="wrapper">
       <header class="page__header">
         <div class="header__container">
-          <a href=""><img src="./img/headerLogo/headerLogo.png" alt="Logo" /></a>
-        </div>
-        <nav class="header__menu menu">
-          <ul class="menu__items">
-            <li class="menu__item"><a class="menu__link" href="">Pricing</a></li>
-            <li class="menu__item"><a class="menu__link" href="">Blog</a></li>
-            <li class="menu__item"><a class="menu__link" href="">Twitter</a></li>
-            <li class="menu__item"><a class="menu__link" href="">TwitterContact</a></li>
-          </ul>
-        </nav>
+          <div class="header__logo">
+            <a href=""><img src="./img/headerLogo/headerLogo.png" alt="Logo" /></a>
+          </div>
+          <nav class="header__menu menu">
+            <ul class="menu__items">
+              <li class="menu__item"><a class="menu__link" href="">Pricing</a></li>
+              <li class="menu__item"><a class="menu__link" href="">Blog</a></li>
+              <li class="menu__item"><a class="menu__link" href="">Twitter</a></li>
+              <li class="menu__item"><a class="menu__link" href="">Contact</a></li>
+            </ul>
+          </nav>
 
-        <div class="header__links link-header">
-          <a class="link-header__sign" href="">Sign in</a>
-          <a class="link-header__join" href="">Join</a>
+          <div class="header__links link-header">
+            <a class="link-header__sign" href="">Sign in</a>
+            <a class="link-header__join" href="">Join</a>
+          </div>
         </div>
       </header>
       <main>
         <section class="page__app app">
           <div class="app__container">
-            <div class="app__information">
-              <h1 class="app__title title">The companion app for your book shelf</h1>
-              <button class="app__btn" type="button">Create your account</button>
-              <p class="app__info">Already a member? <a href="">Sign in.</a></p>
-            </div>
-            <div class="app__img">
-              <img src="./img/app/01.jpg" alt="App Picture" />
+            <div class="app_wrapper">
+              <div class="app__information">
+                <h1 class="app__title title">The companion app for your book shelf</h1>
+                <button class="app__btn" type="button">Create your account</button>
+                <p class="app__info">Already a member? <a href="">Sign in.</a></p>
+              </div>
+              <div class="app__img">
+                <img src="./img/app/01.jpg" alt="App Picture" />
+              </div>
             </div>
             <div class="app__links">
               <a class="app__link" href="">Reading is now <span>Oku</span></a>
