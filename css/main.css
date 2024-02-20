@@ -164,6 +164,18 @@ a {
   align-items: center;
 }
 
+.menu__link:hover,
+.menu__link :focus {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link-header__sign:hover,
+.link-header__sign :focus {
+  font-weight: 600;
+  text-decoration: none;
+}
+
 .header__links {
   display: flex;
   gap: 16px;
@@ -171,31 +183,11 @@ a {
   align-items: center;
 }
 
-.link-header__join {
-  color: white;
-  background-color: black;
-  width: 112px;
-  height: 40px;
-  border: 1px solid black;
-  border-radius: 8px;
-  padding-top: 6px;
-  text-align: center;
-  transition: all 1s ease-out;
-}
-.link-header__join:hover,
-.link-header__join :focus {
-  box-shadow: 0px 12px 11px -3px rgba(0, 0, 0, 0.75);
+.app {
+  margin-bottom: 60px;
 }
 
-.link-header__sign {
-  transition: all 1s ease-out;
-}
-.link-header__sign:hover,
-.link-header__sign :focus {
-  text-decoration: underline;
-}
-
-.app_wrapper {
+.app__wrapper {
   display: flex;
   padding-left: 45px;
 }
@@ -206,13 +198,87 @@ a {
   line-height: 1.2916666667;
 }
 
+.app__img {
+  max-width: 676px;
+  max-height: 676px;
+}
+
+.app__information {
+  flex: 0 1 50%;
+  display: block;
+  max-width: 437px;
+  line-height: 3.496;
+  margin-bottom: 250px;
+}
+
+.app__img {
+  flex: 0 1 50%;
+  margin-left: 50px;
+}
+
+.app__info {
+  font-size: 15px;
+}
+.app__info a:hover,
+.app__info :focus {
+  font-weight: 600;
+}
+
+.app__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.app__registr {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10xpx;
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  text-align: center;
+  transition: all 1s ease-out;
+  border-radius: 8px;
+}
+.btn:hover,
+.btn :focus {
+  box-shadow: 0px 12px 11px -3px rgba(0, 0, 0, 0.75);
+}
+
+.link-header__join {
+  width: 112px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding-top: 6px;
+}
+.link-header__join:hover,
+.link-header__join :focus {
+  box-shadow: 0px 12px 11px -3px rgba(0, 0, 0, 0.75);
+}
+
+.app__link {
+  display: block;
+  margin-top: 29px;
+  margin-bottom: 20px;
+  width: 247px;
+  height: 54px;
+}
+
 body {
   font-family: "Inter", sans-serif;
+  font-size: 15px;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "slnt" 0;
-  color: #131314;
+  color: #46474e;
   line-height: 1.5;
   height: 100%;
   min-width: 320px;
@@ -221,6 +287,8 @@ body {
 [class*=__container] {
   max-width: 1230px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 a:hover,
@@ -230,4 +298,5 @@ a :focus {
 
 .title {
   font-family: "Roboto";
+  color: black;
 }/*# sourceMappingURL=main.css.map */

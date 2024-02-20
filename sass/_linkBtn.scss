@@ -1,0 +1,35 @@
+// Links under Btn
+.btn {
+  color: white;
+  background-color: black;
+  text-align: center;
+  transition: all 1s ease-out;
+  border-radius: 8px;
+
+
+  &:hover,
+  :focus {
+    box-shadow: 0px 12px 11px -3px rgba(0, 0, 0, 0.75);
+  }
+}
+
+.link-header__join {
+  width: 112px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding-top: 6px;
+
+  &:hover,
+  :focus {
+    box-shadow: 0px 12px 11px -3px rgba(0, 0, 0, 0.75);
+  }
+}
+
+.app__link {
+  display: block;
+  margin-top: 29px;
+  margin-bottom: 20px;
+  width: 247px;
+  height: 54px;
+}
