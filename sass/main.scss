@@ -3,7 +3,9 @@
 @import './reset';
 @import './container';
 @import './header';
-@import './body';
+@import './section-app';
+@import './section-grid';
+@import './section-feedback';
 @import './footer';
 @import './linkBtn';
 
@@ -21,10 +23,10 @@ body {
 }
 
 [class*='__container'] {
-  max-width: 1230px;
+  max-width: 1264px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 a {

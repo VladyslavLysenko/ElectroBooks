@@ -131,5 +131,9 @@ table {
 a {
   color: black;
   text-decoration: none;
-}
 
+  &:hover {
+    text-decoration: none;
+    font-weight: 600;
+  }
+}

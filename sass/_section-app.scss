@@ -1,9 +1,10 @@
 .app {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 .app__wrapper {
   display: flex;
   padding-left: 45px;
+  margin-bottom: 5px;
 }
 
 .app__title {
@@ -15,6 +16,7 @@
 .app__img {
   max-width: 676px;
   max-height: 676px;
+  margin-right: -50px;
 }
 
 .app__information {
@@ -22,7 +24,6 @@
   display: block;
   max-width: 437px;
   line-height: calc(437px / 125px);
-  margin-bottom: 250px;
 }
 
 .app__img {
@@ -32,13 +33,11 @@
 
 .app__info {
   font-size: 15px;
-  & a {
-    // font-weight: 600;
-  }
 
   & a:hover,
   :focus {
     font-weight: 600;
+    text-decoration: none;
   }
 }
 
@@ -54,5 +53,15 @@
   gap: 10px;
   justify-content: center;
   text-align: center;
-  margin-bottom: 10xpx;
+  margin-bottom: 10px;
+}
+
+.registr-app__link {
+  &:not(:last-child) {
+    padding-right: 10px;
+    border-right: 2px solid rgba(223, 223, 223, 0.6);
+  }
+  &:hover {
+    text-decoration: none;
+  }
 }
