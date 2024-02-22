@@ -387,11 +387,12 @@ a:hover {
 }
 
 .feedback__wrapper {
-  width: 920px;
+  max-width: 920px;
   height: 454px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(223, 223, 223, 0.6);
 }
 
 .page__feedback {
@@ -399,14 +400,91 @@ a:hover {
 }
 
 .feedback__title {
-  display: block;
   width: 315px;
   text-align: start;
   font-size: 48px;
   line-height: 1.2916666667;
   font-family: "Roboto";
   align-content: center;
+  margin-top: 110px;
+  margin-bottom: 25px;
+  margin-right: 150px;
+}
+
+.feedback__text {
+  max-width: 400px;
+  margin-bottom: 100px;
+}
+
+.img-feedback__02 {
+  position: relative;
+  bottom: 0;
+  right: -200px;
+}
+
+.img-feedback__01 {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.team__title {
+  margin-top: 170px;
+  margin-bottom: 28px;
+  text-align: center;
+  font-size: 48px;
+  line-height: 1.2916666667;
+}
+
+.team__text {
   margin: 0 auto;
+  font-size: 17px;
+  line-height: 1.8235294118;
+  max-width: 705px;
+  margin-bottom: 40px;
+}
+
+.team__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.item-team__name {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 3px;
+}
+
+.item-team__location {
+  text-align: center;
+}
+
+.join__wrapper {
+  margin-top: 300px;
+}
+
+.jon__title {
+  text-align: center;
+  font-size: 48px;
+  line-height: 1.2916666667;
+  margin-bottom: 15px;
+}
+
+.jon__second-title {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.join__text {
+  text-align: center;
+  font-size: 11px;
+  line-height: 2.7272727273;
+  max-width: 440px;
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
 
 .btn {

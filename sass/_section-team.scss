@@ -1,0 +1,30 @@
+.team__title {
+  margin-top: 170px;
+  margin-bottom: 28px;
+  text-align: center;
+  font-size: 48px;
+  line-height: calc(62px / 48px);
+}
+.team__text {
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: calc(31px / 17px);
+  max-width: 705px;
+  margin-bottom: 40px;
+}
+.team__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.item-team__name {
+  text-align: center;
+  font-size: 15px;
+  line-height: calc(27px / 15px);
+  margin-bottom: 3px;
+}
+.item-team__location {
+  text-align: center;
+}
