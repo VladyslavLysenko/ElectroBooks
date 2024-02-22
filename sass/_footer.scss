@@ -1,0 +1,29 @@
+.footer {
+  background-color: $primaryColor;
+  height: 150x;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.footer__menu {
+}
+.menu-footer {
+}
+.menu-footer__items {
+  display: flex;
+  gap: 24px;
+  //   justify-content: center;
+  //   align-items: center;
+}
+.menu-footer__item {
+}
+.menu__link {
+  font-size: 14px;
+  line-height: calc(17px / 14px);
+}
+.footer__labak {
+}
