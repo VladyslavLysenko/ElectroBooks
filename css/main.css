@@ -487,6 +487,17 @@ a:hover {
   margin-bottom: 25px;
 }
 
+.jon__link {
+  margin: 0 auto;
+  display: flex;
+  width: 258px;
+  height: 54px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 190px;
+}
+
 .btn {
   color: white;
   background-color: black;
