@@ -15,7 +15,7 @@
     background-color: white;
     clip-path: ellipse(40% 40% at 50% 50%);
     position: absolute;
-    width: 1650px;
+    // width: 1650px;
     height: 120px;
     top: -56px;
     left: 400px;
@@ -46,7 +46,6 @@
   display: flex;
   width: 258px;
   height: 54px;
-  text-align: center;
   justify-content: center;
   align-items: center;
 }
@@ -74,7 +73,7 @@
 }
 .dog01 {
   position: absolute;
-  bottom: -100px;
+  bottom: 0;
   right: 0;
   width: 270px;
   height: 240px;

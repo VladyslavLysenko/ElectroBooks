@@ -29,13 +29,15 @@
 }
 
 .img-feedback__02 {
+  max-width: 100%;
   position: relative;
   bottom: 0;
-  right: -200px;
+  // right: -50px;
 }
 
 .img-feedback__01 {
+  max-width: 100%;
   position: relative;
   top: 0;
-  right: 0;
+  right: 100px;
 }

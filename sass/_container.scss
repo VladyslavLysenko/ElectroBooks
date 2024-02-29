@@ -1,9 +1,12 @@
-// .container {
-//   //   max-width: 1200px;
-//   padding-left: 15px;
-//   padding-right: 15px;
-//   margin: 0 auto;
-// }
+[class*='__container'] {
+  max-width: 1264px;
+  margin: 0 auto;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  // height: 100%;
+}
 
 .footer .container {
   display: flex;

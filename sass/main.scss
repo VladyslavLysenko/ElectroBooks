@@ -26,13 +26,6 @@ body {
   min-width: 320px;
 }
 
-[class*='__container'] {
-  max-width: 1264px;
-  margin: 0 auto;
-  padding-left: 90px;
-  padding-right: 90px;
-}
-
 a {
   &:hover,
   :focus {
@@ -43,4 +36,8 @@ a {
 .title {
   font-family: 'Roboto';
   color: black;
+}
+
+.wrapper {
+  min-height: 100%;
 }
