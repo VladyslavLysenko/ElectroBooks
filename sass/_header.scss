@@ -70,7 +70,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 468px) {
   .header__links {
     gap: 12px;
   }
@@ -78,5 +78,10 @@
   .header__container {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .menu__items {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }

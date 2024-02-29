@@ -146,8 +146,6 @@ a:hover {
 [class*=__container] {
   max-width: 1264px;
   margin: 0 auto;
-  margin-left: 40px;
-  margin-right: 40px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -213,13 +211,17 @@ a:hover {
     justify-content: start;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 468px) {
   .header__links {
     gap: 12px;
   }
   .header__container {
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .menu__items {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 .app {
@@ -375,6 +377,11 @@ a:hover {
   margin-bottom: 60px;
 }
 
+@media (max-width: 468px) {
+  .advantages__01 {
+    height: 100%;
+  }
+}
 .advantages__02 {
   grid-area: wide2;
   background-color: #f3f4f4;
@@ -500,6 +507,32 @@ a:hover {
   margin-top: 120px;
 }
 
+@media (max-width: 468px) {
+  .feedback__thumb {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .page__feedback {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .feedback__wrapper {
+    height: 100%;
+  }
+  .feedback__title {
+    text-align: center;
+  }
+  .feedback__images {
+    display: none;
+  }
+  .feedback__wrapper {
+    display: block;
+  }
+  .feedback__text {
+    margin-bottom: 0;
+  }
+}
 .feedback__title {
   width: 315px;
   text-align: start;
@@ -512,6 +545,11 @@ a:hover {
   margin-right: 150px;
 }
 
+@media (max-width: 692px) {
+  .feedback__title {
+    margin-top: 10px;
+  }
+}
 .feedback__text {
   max-width: 400px;
   margin-bottom: 100px;
@@ -530,8 +568,11 @@ a:hover {
   right: 100px;
 }
 
-.team__title {
+.team__thumb {
   margin-top: 170px;
+}
+
+.team__title {
   margin-bottom: 28px;
   text-align: center;
   font-size: 48px;
@@ -553,6 +594,10 @@ a:hover {
   gap: 50px;
 }
 
+.item-team__img {
+  width: 100%;
+}
+
 .item-team__name {
   text-align: center;
   font-size: 15px;
@@ -564,6 +609,14 @@ a:hover {
   text-align: center;
 }
 
+@media (max-width: 468px) {
+  .team__thumb {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 .page__join {
   position: relative;
 }
@@ -637,7 +690,7 @@ a:hover {
 .book03 {
   position: absolute;
   top: 100px;
-  right: 100px;
+  right: 80px;
   width: 120px;
   height: 110px;
 }
@@ -650,6 +703,23 @@ a:hover {
   height: 240px;
 }
 
+@media (max-width: 748px) {
+  .book03 {
+    right: 0;
+    max-width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .book02 {
+    display: none;
+  }
+  .book03 {
+    display: none;
+  }
+  .dog01 {
+    display: none;
+  }
+}
 .footer {
   background-color: #f3f4f4;
   height: 150x;
@@ -672,6 +742,12 @@ a:hover {
   line-height: 1.2142857143;
 }
 
+@media (max-width: 650px) {
+  .footer__container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
 .btn {
   color: white;
   background-color: black;

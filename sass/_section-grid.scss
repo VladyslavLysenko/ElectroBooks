@@ -1,9 +1,5 @@
 $primaryColor: #f3f4f4;
 
-.page__advantages {
-  // margin: 0 auto;
-}
-
 .advantages__title {
   max-width: 476px;
   margin: 0 auto;
@@ -59,6 +55,13 @@ $primaryColor: #f3f4f4;
     margin-bottom: 60px;
   }
 }
+
+@media (max-width: 468px) {
+  .advantages__01 {
+    height: 100%;
+  }
+}
+
 .advantages__02 {
   grid-area: wide2;
   background-color: $primaryColor;

@@ -1,5 +1,8 @@
-.team__title {
+.team__thumb {
   margin-top: 170px;
+}
+
+.team__title {
   margin-bottom: 28px;
   text-align: center;
   font-size: 48px;
@@ -19,6 +22,9 @@
   gap: 50px;
 }
 
+.item-team__img {
+  width: 100%;
+}
 .item-team__name {
   text-align: center;
   font-size: 15px;
@@ -27,4 +33,13 @@
 }
 .item-team__location {
   text-align: center;
+}
+
+@media (max-width: 468px) {
+  .team__thumb {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }

@@ -22,3 +22,9 @@
   line-height: calc(17px / 14px);
 }
 
+@media (max-width: 650px) {
+  .footer__container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
